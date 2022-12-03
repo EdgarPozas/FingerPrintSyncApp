@@ -72,7 +72,7 @@ Respuesta
 Petición
 `POST http://example.com/finger_print_sensors/synchronize`
 
-Respuesta
+Cuerpo de la petición
 
 ```
 {
