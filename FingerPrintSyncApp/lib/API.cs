@@ -83,7 +83,6 @@ namespace FingerPrintSyncApp.Lib
             MachineNumber = log.MachineNumber;
             EnrollNumber = log.EnrollNumber;
             InOutMode = log.InOutMode;
-            InOutMode = log.InOutMode;
             VerifyMode = log.VerifyMode;
             CheckTime = log.CheckTime;
             WorkCode = log.WorkCode;
