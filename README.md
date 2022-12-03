@@ -13,36 +13,44 @@ Petición
 `GET http://example.com/finger_print_sensors/online`
 
 Respuesta
-`{
+
+```
+{
     code: 200
-}`
+}
+```
 
 Petición
 `GET http://example.com/finger_print_sensors/configurate`
 
 Respuesta
-`{
+
+```
+{
     code: 200,
-    msg: 'Ok', 
+    msg: 'Ok',
     data: {
         time: '2022-12-02 20:20',
         time_zone: 'Mazatlan',
         sensors:[
             {
-                id: 1, 
-                name: 'Lector principal', 
-                serial_number: 'XXXXXXXXXXXX', 
+                id: 1,
+                name: 'Lector principal',
+                serial_number: 'XXXXXXXXXXXX',
                 admin_password: '1234'
             }
-        ] 
+        ]
     }
-}`
+}
+```
 
 Petición
 `GET http://example.com/finger_print_sensors/list_employees`
 
 Respuesta
-`{
+
+```
+{
     msg: 'Ok',
     data:[
         {
@@ -58,13 +66,16 @@ Respuesta
             ]
         }
     ]
-}`
+}
+```
 
 Petición
 `POST http://example.com/finger_print_sensors/synchronize`
 
 Respuesta
-`{
+
+```
+{
     Users: [
         {
             SerialNumber: 'XXXXXXXXXXXX',
@@ -94,18 +105,23 @@ Respuesta
             WorkCode: 1
         }
     ]
-}`
+}
+```
 
 ## Imagenes
 
-![General](https://github.com/EdgarPozas/FingerPrintSyncApp/images/GENERAL.png)
+![General](https://github.com/EdgarPozas/FingerPrintSyncApp/blob/main/images/GENERAL.png)
 
-![Connect](https://github.com/EdgarPozas/FingerPrintSyncApp/images/Connect.png)
+![Connect](https://github.com/EdgarPozas/FingerPrintSyncApp/blob/main/images/Connect.png)
 
-![Devices](https://github.com/EdgarPozas/FingerPrintSyncApp/images/Devices.png)
+![Devices](https://github.com/EdgarPozas/FingerPrintSyncApp/blob/main/images/Devices.png)
 
-![DataBase](https://github.com/EdgarPozas/FingerPrintSyncApp/images/DataBase.png)
+![DataBase](https://github.com/EdgarPozas/FingerPrintSyncApp/blob/main/images/DataBase.png)
 
-![Logs](https://github.com/EdgarPozas/FingerPrintSyncApp/images/Logs.png)
+![Logs](https://github.com/EdgarPozas/FingerPrintSyncApp/blob/main/images/Logs.png)
 
-![Configuration](https://github.com/EdgarPozas/FingerPrintSyncApp/images/Configuration.png)
+![Configuration](https://github.com/EdgarPozas/FingerPrintSyncApp/blob/main/images/Configuration.png)
+
+```
+
+```
